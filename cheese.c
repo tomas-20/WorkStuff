@@ -15,7 +15,7 @@ int expt(int a, int b) {
 }
 int expt2(int a, int b) {
   int output = 1;
-  while(b > 0) {
+  while (b > 0) {
     output *= a;
     b --;
   }
@@ -23,10 +23,8 @@ int expt2(int a, int b) {
 }
 double sqrt(double n) {
   double guess = n / 2;
-  int i = 0;
-  while (i < 100) {
+  for (int i = 0; i < 100; i ++) {
     guess = (guess + n / guess) / 2;
-    i ++;
   }
   return guess;
 }
