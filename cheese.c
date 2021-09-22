@@ -10,6 +10,13 @@ int expt(int a, int b) {
     return a * expt(a, b - 1);
   }
 }
+int expt2(int a, int b) {
+  int output = 1;
+  while(b > 0) {
+    output *= a;
+    b --;
+  }
+}
 int main() {
   int bob = 2187;
   int joe = 276;
@@ -17,4 +24,5 @@ int main() {
   print_number(bob * joe);
   print_number(bob / joe);
   print_number(expt(3, 7));
+  print_number(expt2(3, 7));
 }
