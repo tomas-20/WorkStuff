@@ -19,6 +19,7 @@ int expt2(int a, int b) {
     output *= a;
     b --;
   }
+  return output;
 }
 double sqrt(double n) {
   double guess = n / 2;
