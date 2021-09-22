@@ -21,13 +21,10 @@ int expt2(int a, int b) {
   }
 }
 double sqrt(double n) {
-  printf("hola\n");
   double guess = n / 2;
   int i = 0;
   while (i < 100) {
     guess = (guess + n / guess) / 2;
-    printf("now:");
-    print_number(guess);
     i ++;
   }
   return guess;
