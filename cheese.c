@@ -38,4 +38,7 @@ int main() {
   print_number(expt2(3, 7));
   print_double(sqrt(5.0));
   print_number(10 == 10);
+  int aaa;
+  int eee;
+  printf("%d   %d\n", aaa, eee);
 }
