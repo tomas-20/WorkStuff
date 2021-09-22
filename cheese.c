@@ -23,7 +23,8 @@ int expt2(int a, int b) {
 }
 double sqrt(double n) {
   double guess = n / 2;
-  for (int i = 0; i < 100; i ++) {
+  int i;
+  for (i = 0; i < 100; i ++) {
     guess = (guess + n / guess) / 2;
   }
   return guess;
