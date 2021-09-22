@@ -41,4 +41,10 @@ int main() {
   int aaa;
   int eee;
   printf("%d   %d\n", aaa, eee);
+  if (0) {
+    printf("0 is true");
+  }
+  if (0.0) {
+    printf("0.0 is true");
+  }
 }
